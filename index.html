@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>    
+    <title>Primer trabajo práctico</title>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">   
+    <link href="styles.css" rel="stylesheet">    
+</head>  
+<body>  
+      
+    <div class="contenedor">
+        
+        <label for="NombreApellido">Ingrese su nombre y apellido</label>    
+        <input type="text" id="NombreApellido" required  ><br/>
+        <br/>
+
+        <label for="MontoInvertir">Ingrese el monto a invertir</label>    
+        <input type="text" id="MontoInvertir" required placeholder="Minimo $1000" ><br/>
+        <div id="montoError" class="error"></div>
+
+        <br/> 
+
+        <label for="CantidadDias">Ingrese la cantidad de dias</label>   
+        <input type="text" id="CantidadDias"required placeholder="Minimo 30 dias"><br/>
+        <div id="diasError" class="error"></div>
+
+        <br/>
+
+        <label for="ReinvertirCapital">¿Desea reinvertir el capital?</label>
+        <select name="capital" id="capital">
+            <option value="si">Si</option>
+            <option value="no">No</option>
+        </select>
+        <br/>
+        <button id="btnCalcular">Calcular</button>
+        <br/>
+        <div id="nombreError" class="error"></div>
+
+        <br/>
+        <div class="valorFinal" id="resultado"></div>
+        <div id="reinversion" >
+
+        </div>
+        <p>monto final = monto inicial + monto inicial * cantidad días/360*porcentaje/100</p>
+    </div>
+
+<script src="script.js"></script>
+</body>  
+</html>
