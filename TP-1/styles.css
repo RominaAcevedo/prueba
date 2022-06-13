@@ -1,0 +1,51 @@
+.contenedor{
+    border: 3px darkblue;
+    padding: 50px 20px;
+    border-radius: 25px;
+    background-color: rgba(100, 148, 237, 0.342);
+    color: black;
+    font-size: larger;
+    font-family: cursive;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+body{
+    background-image: url("https://estaticos-cdn.elperiodico.com/clip/35de3ba0-0aed-4023-a515-8e7ae86c1c04_alta-libre-aspect-ratio_default_0.jpg");
+    background-color: currentcolor;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 100px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+input{
+    border-radius: 10px;
+    margin-left: 100px;
+    width: 250px;
+}
+.error{
+  color: red;
+  font-size: smaller;
+}
+.valorFinal{
+    background-color: steelblue;
+    text-align: center;
+    margin: auto;
+    width: 40vw;
+    height: 50px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.divReinversion{
+    background-color: #eaf3f37d;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    width: 80vw;
+    margin-top: 20px;
+    color: black;
+    border-radius: 10px;
+}
